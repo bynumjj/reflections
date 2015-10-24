@@ -40,3 +40,49 @@ Because I can always return to a previous version that doesn't have the bug.
 7.  Now that you have your workspace set up, what do you want to try using Git for?
 
 Keeping track of versions of projects, publishing my work, collaborating with others.
+
+
+
+LESSON 2
+
+1. What happens when you initialize a repository? Why do you need to do it?
+
+You create an empty repository that can be used to store each update of your file(s) related to a project provide a chronological list of those updates (commits).
+
+
+2. How is the staging area different from the working directory and the repository?  What value do you think it offers?
+
+It's a transitional area that allows you to store provisional alterations to the files before committing final versions.
+
+
+
+3. How can you use the staging area to make sure you have one commit per logical change?
+
+You can use $ git diff --staged to compare the files in the staging area to the last draft in the repository.  You can then review the edits to determine if they are related to one logical change.
+
+
+4. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+When you want to create concurrent versions of a project, such as when adding an experimental feature, or working in collaboration, where your changes would need to be approved by the project owner before being added to the master.
+
+
+
+5. How do the diagrams help you visualize the branch structure?
+
+By creating a graphic layout of how the various commits and branches are related, it clarifies the sequence and subject matter.
+
+
+
+6. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+It adds changes from one version that you would like to incorporate into another, for example, adding a new feature, or fixing a bug.  The diagram allows you to track history of each version separately.
+
+
+
+7. What are the pros and cons of Git’s automatic merging vs.always doing merges manually?
+
+
+Automatically merging is a time saver and leaves less opportunity for mistakes.  Manually resolves conflicts that are too complicated for merge to handle automatically. such as when two versions have incompatible changes to the same lines of code.
+
+
+
