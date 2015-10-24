@@ -86,3 +86,26 @@ Automatically merging is a time saver and leaves less opportunity for mistakes. 
 
 
 
+LESSON 3
+
+1. When would you want to use a remote repository rather than keeping all your work local?
+
+When working from another computer or collaborating with someone else.
+
+
+2. Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+You may want to review the changes first to make sure they'e compatible with your goals for the project, or don't conflict with the edits you're making locally.
+
+
+3. Describe the differences between forks, clones and branches.  When would you use one instead of the other?
+
+Forking is used to copy a repository from one github location to another.  It's used to create your own version of a repository from someone else\'92s while leaving the original unchanged.
+
+Cloning is used to copy a repository from github to a local computer, or from one local location to another.  Cloning is used to create a repository that can be edited locally.
+
+Branching is used to create divergent paths for project versions on one computer.  Branching is used when you'd like to make experimental modifications to a project while keeping the principal version intact.
+
+
+
+
