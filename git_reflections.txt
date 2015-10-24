@@ -69,7 +69,7 @@ When you want to create concurrent versions of a project, such as when adding an
 
 5. How do the diagrams help you visualize the branch structure?
 
-By creating a graphic layout of how the various commits and branches are related, it clarifies the sequence and subject matter.
+By creating a graphic layout of how the various commits and branches are related, it clarifies the sequence and subject matter.  There are several online tools that help you create these kind of diagrams.
 
 
 
@@ -79,7 +79,7 @@ It adds changes from one version that you would like to incorporate into another
 
 
 
-7. What are the pros and cons of Git’s automatic merging vs.always doing merges manually?
+7. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
 
 
 Automatically merging is a time saver and leaves less opportunity for mistakes.  Manually resolves conflicts that are too complicated for merge to handle automatically. such as when two versions have incompatible changes to the same lines of code.
@@ -100,11 +100,17 @@ You may want to review the changes first to make sure they'e compatible with you
 
 3. Describe the differences between forks, clones and branches.  When would you use one instead of the other?
 
-Forking is used to copy a repository from one github location to another.  It's used to create your own version of a repository from someone else\'92s while leaving the original unchanged.
+Forking is used to copy a repository from one github location to another.  It's used to create your own version of a repository from someone else’s while leaving the original unchanged.
 
 Cloning is used to copy a repository from github to a local computer, or from one local location to another.  Cloning is used to create a repository that can be edited locally.
 
 Branching is used to create divergent paths for project versions on one computer.  Branching is used when you'd like to make experimental modifications to a project while keeping the principal version intact.
+
+
+4. What is the benefit of having a copy to the last known state of the remote stored locally?
+
+It creates a way to compare and process changes between local versions and versions that have been edited on Github, without having to share those changes until you’re ready.
+
 
 
 
