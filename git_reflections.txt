@@ -112,7 +112,14 @@ Branching is used to create divergent paths for project versions on one computer
 
 It creates a way to compare and process changes between local versions and versions that have been edited on Github, without having to share those changes until you’re ready.
 
+5. How would you collaborate without using Git or Github?  What would be easier, what would be harder?
+
+You could pass one revised master draft back and forth, or else create separate files, compare the changes, and merge manually.
+
+It takes time and effort to learn github, but keeping track of the revisions and avoiding mistakes would be far harder without it, particularly with complex projects and many collaborators.
 
 
+6. When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
 
+You would want to make changes in a separate branch when those changes are experimental or need to be approved by colleagues, for example.  Working in the master branch has fewer steps but it would be easier to introduce conflicting changes and harder to locate bugs.
 
