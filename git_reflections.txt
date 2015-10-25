@@ -69,7 +69,8 @@ When you want to create concurrent versions of a project, such as when adding an
 
 5. How do the diagrams help you visualize the branch structure?
 
-By creating a graphic layout of how the various commits and branches are related, it clarifies the sequence and subject matter.  There are several online tools that help you create these kind of diagrams.
+
+By creating a graphic layout of how the various commits and branches are related, it clarifies the sequence and subject matter.  There are programs that will help you create these diagrams.
 
 
 
